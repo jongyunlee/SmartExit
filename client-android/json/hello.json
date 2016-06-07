@@ -1,0 +1,11 @@
+{
+    "success":true,
+    "message":"this is a message",
+    "id":1,
+    "assigns":[
+	{"name":"assign"}
+    ],
+    "homeworks":[
+	{"name":"homework"}
+    ]
+}

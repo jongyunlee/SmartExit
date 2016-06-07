@@ -1,0 +1,41 @@
+<div class="page-header">
+  <h3>
+    ID : {{ pi._id }} </br>
+    Temperature : {{ pi.temp }}</br>
+    Humidity : {{ pi.humidity }}</br>
+    * Direction : {{ pi.direction }}</br>
+    * Location : {{ pi.location }}</br>
+    State : {{ pi.state }}</br>
+    Destination : {{ pi.destination }}</br>
+    Message : {{ pi.message }}</br>
+  </h3>
+  <img src="/images/{{ pi._id }}.jpg" alt="Capture" style="width:304px;height:228px;">
+</div>
+<form ng-submit="changeMessage()" style="margin-top:30px;">
+  <div class="form-group">
+    <input class="form-control" type="text" ng-model="message" placeholder="Message"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Change Message</button>
+</form>
+<form ng-submit="changeDestination()" style="margin-top:30px;">
+  <div class="form-group">
+    <input class="form-control" type="text" ng-model="destination" placeholder="Destination"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Change Destination</button>
+</form>
+<form ng-submit="changeState()" style="margin-top:30px;">
+  <div class="form-group">
+    <input class="form-control" type="text" ng-model="state" placeholder="State"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Change State</button>
+</form>
+<form ng-submit="changeDirection()" style="margin-top:30px;">
+  <select class="form-control" name="typeSelect" ng-model="direction">
+    <option value="left">left</option>
+    <option value="right">right</option>
+    <option value="up">up</option>
+    <option value="down">down</option>
+    <option value="stop">stop</option>
+  </select>
+  <button type="submit" class="btn btn-primary">Change Direction</button>
+</form>

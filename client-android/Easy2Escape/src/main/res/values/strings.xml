@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy2Escape</string>
+    <string name="kakao_app_key">48bc731bc0160dcbd9c10fc6e87d94fe</string>
+    <string name="facebook_app_id">1627046017574903</string>
+
+    <string name="desc_image">Description</string>
+</resources>

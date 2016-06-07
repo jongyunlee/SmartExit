@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#13bd88</color>
+  <color name="primary_dark">#00BFA5</color>
+  <color name="accent">#FFFFFFFF</color>
+  <color name="text_primary">#FFFFFFFF</color>
+  <color name="window_background">#eeeeee</color>
+
+  <!-- common -->
+  <color name="background_white_line">#ffffff</color>
+  <color name="text_title">@color/primary</color>
+  <color name="text_gray_in_white">#aaaaaa</color>
+  <color name="text_black_in_white">#000000</color>
+
+  <color name="point">#03c86a</color>
+</resources>

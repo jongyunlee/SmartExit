@@ -1,0 +1,29 @@
+<div class="page-header">
+  <h1>Easy2Escape</h1>
+</div>
+<div ng-repeat="pi in pis" style="padding: 10px;">
+  ID : {{ pi._id }} </br>
+  Temperature : {{ pi.temp }}</br>
+  Humidity : {{ pi.humidity }}</br>
+  * Direction : {{ pi.direction }}</br>
+  * Location : {{ pi.location }}</br>
+  State : {{ pi.state }}</br>
+  Destination : {{ pi.destination }}</br>
+  Message : {{ pi.message }}</br>
+  <span>
+    <a href="#/pis/{{pi._id}}">Edit</a>
+    <a ng-click="deletePi(pi._id)">Delete</a>
+  </span>
+</div>
+<form ng-submit="addPi()" style="margin-top:30px;">
+  <div class="form-group">
+    <select class="form-control" name="typeSelect" ng-model="direction">
+      <option value="left">left</option>
+      <option value="right">right</option>
+      <option value="up">up</option>
+      <option value="down">down</option>
+    </select><br>
+    <input class="form-control" type="text" ng-model="location" placeholder="Location"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Add PI</button>
+</form>

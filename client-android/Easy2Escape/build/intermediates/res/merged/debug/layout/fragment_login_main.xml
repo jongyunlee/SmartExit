@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="?attr/actionBarSize"
+    android:gravity="center"
+    android:background="@color/primary"
+    android:orientation="vertical">
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="30dip"
+      android:src="@drawable/ic_launcher"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="13dip"
+      android:textColor="#fff"
+      android:text="어떠한 정보도 무단으로 포스팅하지 않습니다"
+      android:layout_marginBottom="10dip"
+      android:layout_marginTop="40dip"/>
+  <Button
+      android:id="@+id/btn_facebook"
+      android:layout_width="match_parent"
+      android:layout_height="46dip"
+      android:layout_marginBottom="10dip"
+      android:layout_marginRight="37dip"
+      android:layout_marginLeft="37dip"
+      android:paddingLeft="16dip"
+      android:paddingRight="15dip"
+      android:paddingTop="10dip"
+      android:paddingBottom="10dip"
+      android:text="페이스북으로 바로시작"
+      android:textSize="15dip"/>
+  <Button
+      android:id="@+id/btn_googleplus"
+      android:layout_width="match_parent"
+      android:layout_height="46dip"
+      android:layout_marginBottom="10dip"
+      android:layout_marginRight="37dip"
+      android:layout_marginLeft="37dip"
+      android:paddingLeft="16dip"
+      android:paddingRight="15dip"
+      android:paddingTop="10dip"
+      android:paddingBottom="10dip"
+      android:text="구글플러스로 바로시작"
+      android:textSize="15dip"/>
+  <Button
+      android:id="@+id/btn_kakao"
+      android:layout_width="match_parent"
+      android:layout_height="46dip"
+      android:layout_marginBottom="10dip"
+      android:layout_marginRight="37dip"
+      android:layout_marginLeft="37dip"
+      android:paddingTop="10dip"
+      android:paddingBottom="10dip"
+      android:paddingLeft="16dip"
+      android:paddingRight="15dip"
+      android:text="카카오톡ID로 바로시작"
+      android:textSize="15dip"/>
+  <Button
+      android:id="@+id/btn_email_signup"
+      android:layout_width="match_parent"
+      android:layout_height="46dip"
+      android:layout_marginRight="37dip"
+      android:layout_marginLeft="37dip"
+      android:paddingLeft="16dip"
+      android:paddingRight="15dip"
+      android:paddingTop="10dip"
+      android:paddingBottom="10dip"
+      android:text="이메일로 회원가입"
+      android:textSize="15dip"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal">
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="이미 이메일로 가입하셨나요? "
+	android:textColor="#fff"
+	android:textSize="15dip"/>
+    <TextView
+	android:id="@+id/btn_email"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="4dip"
+	android:paddingTop="13dip"
+	android:paddingBottom="13dip"
+	android:background="@null"
+	android:text="이메일로 바로시작"
+	android:textColor="#fff"
+	android:textSize="15dip"/>
+  </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/jongyunlee/study/EExit/client-android/Easy2Escape/src/main/res/layout/fragment_login_main.xml -->

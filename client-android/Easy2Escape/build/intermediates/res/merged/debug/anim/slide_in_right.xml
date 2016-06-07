@@ -1,0 +1,7 @@
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:fromXDelta="100%p"
+    android:toXDelta="0"
+    android:zAdjustment="top" />
+<!-- From: file:/Users/jongyunlee/study/EExit/client-android/Easy2Escape/src/main/res/anim/slide_in_right.xml -->

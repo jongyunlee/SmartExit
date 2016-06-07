@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  <com.makeramen.roundedimageview.RoundedImageView
+      android:id="@+id/content_image"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:adjustViewBounds="true"
+      android:contentDescription="@string/desc_image"
+      app:riv_oval="true"
+      android:scaleType="centerCrop"/>
+  <!-- <ProgressBar -->
+  <!--     android:id="@+id/content_progress" -->
+  <!--     android:layout_width="match_parent" -->
+  <!--     android:layout_height="wrap_content" -->
+  <!--     android:layout_centerVertical="true" -->
+  <!--     android:layout_centerHorizontal="true"/> -->
+  <!-- <ProgressBar -->
+  <!--     android:id="@+id/content_progress" -->
+  <!--     android:layout_width="match_parent" -->
+  <!--     android:layout_height="6dip" -->
+  <!--     android:indeterminate="false" -->
+  <!--     android:max="100" -->
+  <!--     android:progressDrawable="@drawable/auil_progress" -->
+  <!--     style="?android:attr/progressBarStyleHorizontal"/> -->
+  <com.eexit.widget.MatrialProgressWheel
+      android:id="@+id/content_progress"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      app:barColor="@color/text_gray_in_white"
+      app:progressIndeterminate="true" />
+</RelativeLayout>
+<!-- From: file:/Users/jongyunlee/study/EExit/client-android/Easy2Escape/src/main/res/layout/view_progress_image_round.xml -->
