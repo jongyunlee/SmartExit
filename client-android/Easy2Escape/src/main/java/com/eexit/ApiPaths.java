@@ -3,7 +3,8 @@ package com.eexit;
 public class ApiPaths {
     public static final String PI_ID = "pi_id";
 
-    public static final String SERVER = "http://10.48.131.100:3000";
+    public static final String SERVER = "http://192.168.0.40:3000";
+
     public static final String SPLASH_PATH = "/api/v1/splash/";
     public static final String LOGIN_EMAIL_PATH = "/api/v1/users/login/";
     public static final String SEND_ACCESS_TOKEN_PATH = "/api/v1/users/google/";

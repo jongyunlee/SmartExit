@@ -90,7 +90,8 @@ public class HomeFragment extends BaseFragment {
 
     public void initPhoneNumbers() {
 	phoneNumbers = new ArrayList<String>();
-	phoneNumbers.add("010-5173-7532");
+	phoneNumbers.add("010-2045-8950");
+	phoneNumbers.add("010-9688-5980");
     }
 
     public void load() {
